@@ -1,25 +1,66 @@
 # JES PRUEBA TECNICA
-Clonar repositorio
+
+### Clonar repositorio
+
+```bash
 $ git clone https://github.com/noenuez/prueba-jes.git
-# Frontend
-para ajustar la direcion de los servicio frontend\src\app\http\index.ts
-Construir
-## Ir a carpeta
+```
+
+## Frontend
+
+### Variables de configuracion
+
+```
+# para cambiar la direccion de los servicios
+frontend\src\app\index.ts
+```
+
+### Construir
+
+```bash
+# Ir a carpeta
 $ cd frontend
-## Instalar las dependencia
+# Instalar dependencias
 $ npm install
-## Arrancar
-levantara en el puerto 3000
+
+```
+
+### Ejecutar
+
+```bash
+# levanta en localhost:3000
 $ npm start
-# Backend
-Variables de configuracion
+
+```
+
+## Backend
+
+### Variables 
+
+```
  .env
-Construir
-## Ir a carpeta
+```
+
+### Construir
+
+```bash
+# Ir a carpeta
 $ cd backend
-## Instalar librerias
+# Instalar librerias
 $ npm install
-## Arrancar
+
+```
+
+### Ejecutar
+
+```bash
+# Para correr el aplicativo, levanta en localhost:3001
 $ npm run start
-la migracion se corre al levantra la aplicacion, pero pueden correrse bajo demanda
+```
+
+### Comandos
+
+```bash
+# las migraciones se corren al levantar el aplicativo, pero pueden ser ejecutadas bajo demanda de ser necesario
 $ npm run migration:run #Correr migraciones
+```

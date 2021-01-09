@@ -19,7 +19,6 @@ Construir
 $ cd backend
 ## Instalar librerias
 $ npm install
-Ejecutar
 ## Arrancar
 $ npm run start
 la migracion se corre al levantra la aplicacion, pero pueden correrse bajo demanda

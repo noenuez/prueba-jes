@@ -14,8 +14,8 @@ export class FiscaliaDto {
 
   @IsNotEmpty()
   telefono: string;
-
+  @IsNotEmpty()
   latitud: number;
-
+  @IsNotEmpty()
   longitud: number;
 }

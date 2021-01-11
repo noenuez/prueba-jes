@@ -11,7 +11,7 @@ interface Props {}
 export const Prueba = memo((props: Props) => {
   return (
     <>
-      <div>holaaaaaaaaaaaaa</div>
+      <div></div>
     </>
   );
 });

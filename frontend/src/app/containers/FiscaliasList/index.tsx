@@ -60,7 +60,7 @@ export const FiscaliasList = memo((props: Props) => {
           <hr></hr>
           <Row>
             <Col>
-              <Grid pageSize={5} colDefs={colDefs} url={base} />
+              <Grid colDefs={colDefs} url={base} pageSize={7}  />
             </Col>
           </Row>
         </Card.Body>

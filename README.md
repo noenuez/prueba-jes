@@ -56,6 +56,7 @@ $ npm install
 ```bash
 # Para correr el aplicativo, levanta en localhost:3001
 $ npm run start
+# Swagger disponible en localhost:3001/api/
 ```
 
 ### Comandos
